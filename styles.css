@@ -1,19 +1,55 @@
-.container{
-    width: 350px;
-    height: 360px;
-    border: 1px solid black;
-    background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
-    border-radius: 10px;
-    /* display: flex;
-    flex-direction: column; */
+body{
+  background: url(/images/bg-pattern-top.svg) no-repeat -200px -200px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 1000px 300px /contain;
+  background-color: #19A1AD;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
+.card {
+  margin: 130px auto;
+  width: 350px;
+  height: 360px;
+  background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
+  border-radius: 10px;
+  background-color: white;
+}
 
+.image {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-left: 120px;
+  margin-top: 100px;
+}
+
+.name{
+  text-align: center;
+}
+.name h2{
+  margin: 0px;
+}
+
+.infoborder{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: .1px solid rgba(150, 150, 150, .3);
+}
+
+.information{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.item{
+  font-size: 11px;
+  text-align: center;
+}
+.item h3, p{
+  margin-bottom: 0px;
+}
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+  font-size: 11px;
+  text-align: center;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
