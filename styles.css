@@ -27,6 +27,10 @@ body{
   margin: 0px;
 }
 
+.name span, p{
+  color: hsl(0, 0%, 59%);
+}
+
 .infoborder{
   margin-top: 10px;
   margin-bottom: 0px;
@@ -39,11 +43,17 @@ body{
 
 }
 .item{
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
 }
 .item h3, p{
   margin-bottom: 0px;
+}
+
+.item p{
+  font-size: 12.3px;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2px;
 }
 .attribution {
   font-size: 11px;
