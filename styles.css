@@ -101,7 +101,7 @@ p {
 
 @media (max-width: 1440px){
   body {
-    background: url(/images/bg-pattern-top.svg) no-repeat 50px -200px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 900px 300px /contain;
+    background: url(/images/bg-pattern-top.svg) no-repeat -200px -250px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 900px 300px /contain;
     background-color: rgb(25, 161, 173);
     font-family: 'Kumbh Sans', sans-serif;
   }
