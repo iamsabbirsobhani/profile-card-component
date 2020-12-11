@@ -1,4 +1,4 @@
-body{
+body {
   background: url(/images/bg-pattern-top.svg) no-repeat -200px -200px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 1000px 300px /contain;
   background-color: rgb(25, 161, 173);
   font-family: 'Kumbh Sans', sans-serif;
@@ -11,13 +11,13 @@ body{
   background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: .2px .2px 10px .1px rgba(27, 27, 27, 0.253);
+  box-shadow: .2px .2px 100px .1px rgba(27, 27, 27, 0.151);
   transition: all .3s;
 }
 
-.card:hover{
-  transform: scale(1.01,1.01);
-  box-shadow: .2px .2px 10px .1px rgba(245, 245, 245, 0.253);
+.card:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: .2px .2px 100px .1px rgba(245, 245, 245, 0.253);
 }
 
 .image {
@@ -27,41 +27,47 @@ body{
   margin-top: 100px;
 }
 
-.name{
+.name {
   text-align: center;
 }
-.name h2{
+
+.name h2 {
   margin: 0px;
 }
 
-.name span, p{
+.name span,
+p {
   color: hsl(0, 0%, 59%);
 }
 
-.infoborder{
+.infoborder {
   margin-top: 10px;
   margin-bottom: 0px;
   border: .1px solid rgba(150, 150, 150, .3);
 }
 
-.information{
+.information {
   display: flex;
   justify-content: space-evenly;
 
 }
-.item{
+
+.item {
   font-size: 16px;
   text-align: center;
 }
-.item h3, p{
+
+.item h3,
+p {
   margin-bottom: 0px;
 }
 
-.item p{
+.item p {
   font-size: 12.3px;
   color: hsl(0, 0%, 59%);
   letter-spacing: 2px;
 }
+
 .attribution {
   font-size: 15px;
   text-align: center;
@@ -69,4 +75,21 @@ body{
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  transition: all .3s;
+}
+
+.attribution a:link {
+  color: rgb(255, 255, 255);
+}
+
+.attribution a:visited {
+  color: rgb(68, 72, 141);
+}
+
+.attribution a:hover {
+  color: rgb(241, 245, 4);
+}
+
+.attribution a:active {
+  color: rgba(255, 2, 2, 0.685);
 }
