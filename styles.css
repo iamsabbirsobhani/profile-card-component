@@ -1,0 +1,19 @@
+.container{
+    width: 350px;
+    height: 360px;
+    border: 1px solid black;
+    background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
