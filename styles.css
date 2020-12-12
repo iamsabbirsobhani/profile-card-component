@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  margin: 150px auto;
+  margin: 130px auto;
   width: 350px;
   height: 360px;
   background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
