@@ -2,10 +2,14 @@ body {
   background: url(/images/bg-pattern-top.svg) no-repeat -200px -200px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 1000px 300px /contain;
   background-color: rgb(25, 161, 173);
   font-family: 'Kumbh Sans', sans-serif;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 .card {
-  margin: 130px auto;
+  margin: 150px auto;
   width: 350px;
   height: 360px;
   background: url(/images/bg-pattern-card.svg) no-repeat top right /350px 150px;
@@ -71,6 +75,12 @@ p {
 .attribution {
   font-size: 15px;
   text-align: center;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 .attribution a {
@@ -141,7 +151,7 @@ p {
 /* Mobile Device */
 @media (max-width: 320px) {
   body {
-    background: url(/images/bg-pattern-top.svg) no-repeat -200px -150px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 200px 400px /contain;
+    background: url(/images/bg-pattern-top.svg) no-repeat -200px -100px /contain, url(/images/bg-pattern-bottom.svg) no-repeat 160px 500px /contain;
     background-color: rgb(25, 161, 173);
     font-family: 'Kumbh Sans', sans-serif;
   }
